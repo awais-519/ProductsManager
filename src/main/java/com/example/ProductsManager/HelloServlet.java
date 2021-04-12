@@ -33,7 +33,7 @@ PrintWriter out = response.getWriter();
     String p=request.getParameter("up");
     if(validate(n,p))
     {
-        out.println("LOGIN SUCCESSFULL");
+        out.println("LOGIN-SUCCESSFULL.");
         RequestDispatcher rd=request.getRequestDispatcher("/home.jsp");
         rd.include(request,response);
 
